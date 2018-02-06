@@ -28,7 +28,7 @@ public class ZnakovniNizovi {
         System.out.println("Početak\rlinije");
         
         // sljedeća linija neće raditi
-        //System.out.println("Navodnici "unutar" navodnika");
+        // System.out.println("Navodnici "unutar" navodnika");
         System.out.println("Navodnici \"unutar\" navodnika");
         
         // vrijedi i za jednostruke navodnike

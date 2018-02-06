@@ -21,7 +21,7 @@ public class Varijable {
         dodijeliti neodgovarajuću vrijednost */
         // broj = "Šljiva";
         // rijec = 10;
-        
+         
         /* sljedeća linija rakođer neće raditi, varijable se ne mogu ponovno
         deklarirati */
         // int broj = 100;
@@ -42,7 +42,7 @@ public class Varijable {
         int broj_dana_u_godini;
         int brojDanaUMjesecu;
         int broj5;
-        int brakeFree;
+        int breakFree;
     }
     
 }

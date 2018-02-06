@@ -31,7 +31,6 @@ public class UnosKorisnika {
                 "Zahvala",
                 1);
 
-        
         Scanner sc = new Scanner(System.in);
 
         int cijeliBroj = sc.nextInt();

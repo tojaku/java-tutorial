@@ -31,7 +31,7 @@ public class Brojevi {
         zbroj = zbroj + c;
         System.out.println("(2) Zbroj je " + zbroj);
         zbroj += c; // skraćeni oblik prethodne naredbe
-        System.out.println("(2) Zbroj je " + zbroj);
+        System.out.println("(3) Zbroj je " + zbroj);
 
         int razlika = a - b;
         System.out.println("(1) Razlika je " + razlika);
