@@ -1,16 +1,17 @@
 package org.bsm.java.epizoda5;
 
 public class Grananje {
-
     public static void main(String[] args) {
         Grananje objekt = new Grananje();
 
         // zamisli broj - verzija 1
+        System.out.println("Pogađanje brojeva verzija 1");
         objekt.zamisliJedanBrojVerzija1(2);
         objekt.zamisliJedanBrojVerzija1(-4);
         objekt.zamisliJedanBrojVerzija1(172);
 
         // zamisli broj - verzija 2
+        System.out.println("Pogađanje brojeva verzija 2");
         objekt.zamisliJedanBrojVerzija2(5);
         objekt.zamisliJedanBrojVerzija2(-17);
         objekt.zamisliJedanBrojVerzija2(1024);
@@ -37,7 +38,6 @@ public class Grananje {
     }
 
     public void zamisliJedanBrojVerzija1(int broj) {
-        System.out.println("Pogađanje brojeva verzija 1");
         if (broj <= 0) {
             System.out.println("Samo pozitivni brojevi molim!");
         }
@@ -62,7 +62,6 @@ public class Grananje {
     }
 
     public void zamisliJedanBrojVerzija2(int broj) {
-        System.out.println("Pogađanje brojeva verzija 2");
         if (broj <= 0) {
             System.out.println("Samo pozitivni brojevi molim!");
         } else if (broj == 1) {
