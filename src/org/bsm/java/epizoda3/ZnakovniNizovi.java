@@ -1,4 +1,4 @@
-package org.dfm.java.epizoda3;
+package org.bsm.java.epizoda3;
 
 public class ZnakovniNizovi {
 

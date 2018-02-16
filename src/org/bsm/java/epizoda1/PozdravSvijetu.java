@@ -1,4 +1,4 @@
-package org.dfm.java.epizoda1;
+package org.bsm.java.epizoda1;
 
 public class PozdravSvijetu {
 

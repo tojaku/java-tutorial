@@ -1,4 +1,4 @@
-package org.dfm.java.epizoda2;
+package org.bsm.java.epizoda2;
 
 public class TijekIzvrsavanja {
 
