@@ -2,7 +2,7 @@ package org.bsm.java.epizoda7;
 
 public class Korisnik {
 
-    // statični podatkovni član
+    // statični privatni podatkovni član
     private static int brojAktivnihKorisnika = 0;
 
     // privatni podatkovni članovi
@@ -32,7 +32,7 @@ public class Korisnik {
         return korisnickoIme;
     }
 
-    public String geteMailAdresa() {
+    public String getEMailAdresa() {
         return eMailAdresa;
     }
 
@@ -55,13 +55,14 @@ public class Korisnik {
 
     // statična metode
     public static int getBrojAktivnihKorisnika() {
+        // vraća statični podatkovni član
         return brojAktivnihKorisnika;
     }
 
     // opis ponašanja klase Korisnik metodama
     public boolean prijava(String lozinka) {
         if (lozinka.equals(this.lozinka)) {
-            brojAktivnihKorisnika++;    // poziv statične metode
+            brojAktivnihKorisnika++;    // poziv statičnog člana
             // ili
             // Korisnik.brojAktivnihKorisnika++;
             prijavljen = true;
@@ -77,7 +78,7 @@ public class Korisnik {
 
     public boolean odjava() {
         if (prijavljen) {
-            brojAktivnihKorisnika--;    // poziv statične metode
+            brojAktivnihKorisnika--;    // poziv statičnog člana
             prijavljen = false;
 
             System.out.println("Korisnik " + korisnickoIme + " uspješno odjavljen!");

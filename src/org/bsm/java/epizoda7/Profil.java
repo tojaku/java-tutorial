@@ -16,13 +16,13 @@ public class Profil {
         this.prezime = prezime;
     }
 
-    // preopterećeni konstruktora
+    // preopterećeni konstruktor
     public Profil(String ime, String prezime, int godinaRodjenja) {
         this(ime, prezime);     // poziv postojećeg konstruktora
         this.godinaRodjenja = godinaRodjenja;
     }
 
-    // preopterećeni konstruktora
+    // preopterećeni konstruktor
     public Profil(String ime, String prezime, int godinaRodjenja, String mjestoStanovanja) {
         this(ime, prezime, godinaRodjenja);     // poziv postojećeg konstruktora
         this.mjestoStanovanja = mjestoStanovanja;
@@ -31,7 +31,7 @@ public class Profil {
     // metode za čitanje privatnih podatkovnih članova, tzv. getter metode
     public String getIme() {
         /* podatkovnom članu pristupamo bez naredbe this jer u metodi
-           ne postoji istoimena varijabla */
+           ne postoji istoimena varijabla, pa nema konflikta */
         return ime;
     }
 

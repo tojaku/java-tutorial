@@ -4,7 +4,7 @@ public class TestKorisnika {
 
     public static void main(String[] args) {
 
-        // instanciranje objekata i prikaz adrese u memoriji
+        // stvaranje objekata i prikaz adrese u memoriji
         Korisnik pero = new Korisnik("pperic", "pperic@dmail.com", "123456");
         Profil perinProfil = new Profil("Pero", "Perić", 1990);
         pero.setProfil(perinProfil);
@@ -15,7 +15,7 @@ public class TestKorisnika {
         System.out.println("Korisnik pero: " + pero);
         System.out.println("Korisnik marko: " + marko);
 
-        // usporeda dvaju naočigled jednakih objekata
+        // usporedba dvaju naočigled jednakih objekata
         Korisnik markoKlon = new Korisnik("mmaric", "mmaric@dmail.com", "654321",
                 new Profil("Marko", "Marić", 1988, "Zagreb"));
 
@@ -26,7 +26,7 @@ public class TestKorisnika {
         System.out.println("Korisnik marko: " + marko);
         System.out.println("Korisnik markoKlon: " + markoKlon);
 
-        // pristup neinicijaliziranim članovima
+        // pristup članovima nepostojećeg objekta
         Korisnik ana = new Korisnik("aanic", "aanic@dmail.com", "242424");
 
         System.out.println("Anin profil: " + ana.getProfil());
