@@ -33,7 +33,7 @@ public class TestKorisnika {
         // sljedeća naredba uzrokovat će grešku NullPointerException
         // System.out.println("Anin profil: " + ana.getProfil().getMjestoStanovanja());
 
-        // korištenje statičnih članova
+        // korištenje statičkih članova
         pero.prijava("123456");
         marko.prijava("123456");
         marko.prijava("654321");
