@@ -18,7 +18,7 @@ public class Iznimke {
         polje[2] = 3;
 
         // bez detekcije i obrade iznimke
-        // polje[5] = 6;
+        //polje[5] = 6;
         try {
             polje[5] = 6;
         } catch (ArrayIndexOutOfBoundsException ex) {
@@ -34,7 +34,7 @@ public class Iznimke {
 
         try {
             boolean test = polje[2].equals("a");    // NullPointerException
-            polje[3] = "c";                         // ArrayIndexOutOfBoundsException
+            //polje[3] = "c";                         // ArrayIndexOutOfBoundsException
         } catch (Exception ex) {
             System.out.println("Dogodila se neka greška!");
             System.out.println("Detaljan uzrok iznimke: " + ex.toString());
