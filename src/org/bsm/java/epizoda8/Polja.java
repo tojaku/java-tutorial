@@ -27,7 +27,7 @@ public class Polja {
         System.out.println("Prosjek iznosi: " + prosjek);
 
         // dohvat nepostojećeg elementa
-        // System.out.println("Temperature na indeksu 50: " + temperature[50]);
+        //System.out.println("Temperature na indeksu 50: " + temperature[50]);
 
     }
 

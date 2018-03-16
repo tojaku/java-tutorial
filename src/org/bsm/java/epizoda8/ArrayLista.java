@@ -10,7 +10,6 @@ public class ArrayLista {
         ArrayLista objekt = new ArrayLista();
 
         objekt.mjeseci();
-
         objekt.temperature();
     }
 
@@ -74,7 +73,7 @@ public class ArrayLista {
         System.out.println("Veličina liste je: " + temperature.size());
         System.out.println("Stanje liste: " + temperature.toString());
 
-        // brisanje svih elemenata većih od 25, kretanje unaprijed
+        // brisanje svih elemenata većih od 25 i promjena manjih od 0, kretanje unaprijed
         System.out.println("MANIPULACIJA");
         ListIterator<Integer> listIterator = temperature.listIterator();
         while (listIterator.hasNext()) {
