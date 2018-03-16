@@ -31,8 +31,8 @@ public class BojeIOblici extends Application {
         pravokutnik1.setStrokeWidth(10);
 
         // mijenjamo položaj pravokutnika
-        //pravokutnik1.setX(100);
-        //pravokutnik1.setY(50);
+        pravokutnik1.setX(100);
+        pravokutnik1.setY(50);
         root.getChildren().add(pravokutnik1);
 
         // linearni gradijent
@@ -55,8 +55,8 @@ public class BojeIOblici extends Application {
         // promjena položaja trokuta
         //trokut1.setX(200);
         //trokut1.setY(200);
-        //trokut1.setLayoutX(200);
-        //trokut1.setLayoutY(200);
+        trokut1.setLayoutX(100);
+        trokut1.setLayoutY(100);
 
         Scene scene = new Scene(root, 320, 240);
 

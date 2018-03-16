@@ -40,10 +40,10 @@ public class Osnove extends Application {
         gumb2.setText("Moj drugi gumb (koji se vidi) (:");
 
         // stvaranje korijenskog čvora
-        StackPane root = new StackPane();
+        //StackPane root = new StackPane();
         //VBox root = new VBox();
         //FlowPane root = new FlowPane();
-        //Group root = new Group();
+        Group root = new Group();
 
         // punjenje korijenskog čvora
         root.getChildren().add(btn);

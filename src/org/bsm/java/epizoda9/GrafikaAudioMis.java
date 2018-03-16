@@ -18,8 +18,8 @@ public class GrafikaAudioMis extends Application {
         ImageView iw1 = new ImageView(slika1);
 
         // skaliranje slike
-        /*imageView.setPreserveRatio(true);
-        imageView.setFitWidth(200);*/
+        iw1.setPreserveRatio(true);
+        iw1.setFitWidth(200);
         root.getChildren().add(iw1);
 
         Image slika2 = new Image(getClass().getResource("oblaci.png").toString());
