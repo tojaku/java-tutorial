@@ -58,7 +58,7 @@ public class BojeIOblici extends Application {
         //trokut1.setLayoutX(200);
         //trokut1.setLayoutY(200);
 
-        Scene scene = new Scene(root, 640, 480);
+        Scene scene = new Scene(root, 320, 240);
 
         primaryStage.setTitle("Boje i oblici");
         primaryStage.setScene(scene);

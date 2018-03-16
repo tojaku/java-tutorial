@@ -26,6 +26,10 @@ public class Osnove extends Application {
                 System.out.println("Pozdrav od JavaFX-a");
             }
         });
+        
+        /*btn.setOnAction((ActionEvent event) -> {
+            System.out.println("Pozdrav od JavaFX-a");
+        });*/
 
         // moj gumb 1 - ne vidi se jer nije dodan u korijenski čvor
         Button gumb1 = new Button();
@@ -36,10 +40,10 @@ public class Osnove extends Application {
         gumb2.setText("Moj drugi gumb (koji se vidi) (:");
 
         // stvaranje korijenskog čvora
-        //StackPane root = new StackPane();
+        StackPane root = new StackPane();
         //VBox root = new VBox();
         //FlowPane root = new FlowPane();
-        Group root = new Group();
+        //Group root = new Group();
 
         // punjenje korijenskog čvora
         root.getChildren().add(btn);
@@ -51,7 +55,7 @@ public class Osnove extends Application {
 
         // možemo dodati i više čvorova odjednom u korijenski čvor
         //root.getChildren().addAll(btn, gumb2);
-        Scene scene = new Scene(root, 300, 250, Color.BLACK);
+        Scene scene = new Scene(root, 320, 240, Color.BLACK);
 
         primaryStage.setTitle("Prva JavaFX aplikacija");
         primaryStage.setScene(scene);
